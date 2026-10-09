@@ -1,0 +1,109 @@
+<!doctype html><html lang="et"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pagari-ja kondiitritooted | IGIAED</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="brand-name">IGIAED</span><span class="brand-note">Igal ajal!</span></a>
+    <button class="mobile-toggle">Menüü</button>
+    <nav class="nav">
+      <a class="" href="index.html">Avaleht</a>
+      <a class="" href="igiaed.html">Igiaed</a>
+      <div class="dropdown">
+        <a class="nav-link active" href="tooted.html">e-pood</a>
+        <div class="dropdown-menu">
+          <a href="urdikapp.html">Ürdikapp</a>
+          <a href="koogipoolel.html">Köögipoolel</a>
+          <a href="korilase-korv.html">Korilase korv</a>
+          <a href="taimed.html">Taimed</a>
+        </div>
+      </div>
+      <a class="" href="ostukorv.html">Ostukorv <span id="cart-count"></span></a>
+      <a class="" href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-title">
+  <div class="kicker">Köögipoolel</div>
+  <h1>Pagari-ja kondiitritooted</h1>
+  <div class="placeholder-line">Ettetellimisel Pärnumaa piires.</div>
+</section>
+
+<section class="section bakery-intro">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Ettetellimisel</div>
+      <h2>Käsitööna ja väikeses koguses</h2>
+    </div>
+    <p>Pagari-ja kondiitritooted valmivad kokkuleppel. Täpne hind sõltub tootest, kogusest, toorainest, kaunistustest ja valmistamise ajast.</p>
+  </div>
+
+  <div class="price-panel">
+    <h2>Orienteeruvad hinnad</h2>
+    <p class="lead">Hinnad on prototüübi jaoks lisatud turuhinna järgi. Lõplik hind kinnitatakse enne tellimuse vastuvõtmist.</p>
+
+    <div class="price-table">
+      <div class="price-row"><strong>Käsitöö kringlid ja stritslid</strong><span>al 18 €/kg</span></div>
+      <div class="price-row"><strong>Koogid ja tordid</strong><span>al 28 €/kg</span></div>
+      <div class="price-row"><strong>Luksuslikud või erikujulised tordid</strong><span>al 35 €/kg</span></div>
+      <div class="price-row"><strong>Eritellimused ja väikepartiid</strong><span>hind kokkuleppel</span></div>
+    </div>
+  </div>
+
+  <div class="prototype-form-card">
+    <div class="form-note">
+      <div class="kicker">Prototüüp</div>
+      <h2>Tellimisvorm</h2>
+      <p>See vorm on praegu kujunduslik prototüüp. Saatmisloogika lisame hiljem, kui koduleht liigub päris majutusse.</p>
+    </div>
+
+    <form class="order-form prototype-form">
+      <div class="form-grid">
+        <label>
+          Nimi
+          <input type="text" name="name" placeholder="Sinu nimi">
+        </label>
+
+        <label>
+          Telefon
+          <input type="tel" name="phone" placeholder="+372 ...">
+        </label>
+
+        <label>
+          E-post
+          <input type="email" name="email" placeholder="sinu@email.ee">
+        </label>
+
+        <label>
+          Soovitud kuupäev
+          <input type="date" name="date">
+        </label>
+
+        <label>
+          Toote tüüp
+          <select name="product_type">
+            <option value="">Vali...</option>
+            <option>Käsitöö kringel / stritsel</option>
+            <option>Kook või tort</option>
+            <option>Luksuslik või erikujuline tort</option>
+            <option>Muu eritellimus</option>
+          </select>
+        </label>
+
+        <label>
+          Ligikaudne kogus / kaal
+          <input type="text" name="amount" placeholder="nt 1,5 kg või 12 tk">
+        </label>
+      </div>
+
+      <label>
+        Tellimuse kirjeldus
+        <textarea name="message" rows="7" placeholder="Kirjelda maitset, suurust, sündmust, erisoove ja kättesaamise kohta."></textarea>
+      </label>
+
+      <button class="button prototype-button" type="button">Saada tellimuspäring</button>
+      <p class="cart-note">Nupp on prototüübis mittetoimiv. Hiljem saab selle ühendada serveripoolse vormi, e-poe või tellimussüsteemiga.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="footer-inner"><div><strong>IGIAED</strong><p>Talu e-pood, ürdikapp ja hooajalised annid.</p></div><div><p>e-post: igiaed@igiaed.ee<br>tel: +3723356673</p></div></div></footer><script src="script.js"></script>
+</body></html>

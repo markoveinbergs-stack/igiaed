@@ -1,23 +1,56 @@
-<!doctype html>
-<html lang="et">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IGIAED – Igal ajal!</title>
-<meta name="description" content="IGIAED – talu e-pood, ürdikapp ja hooajalised annid.">
-<style>
-:root{--green:#365b35;--dark:#203a25;--sage:#eaf0e5;--cream:#f8f5ee;--line:#d9dfd4;--white:#fff;--text:#263128}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--cream);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}.header{position:sticky;top:0;z-index:20;background:rgba(248,245,238,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(54,91,53,.15)}.header .wrap{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:baseline;gap:12px}.brand b{font-family:Georgia,serif;font-size:28px;letter-spacing:.08em;color:var(--dark)}.brand span{font-size:13px;font-style:italic;color:#657065}.nav{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:650}.nav a:hover{color:var(--green)}.cart{border:1px solid var(--green);border-radius:999px;padding:9px 14px}.hero{min-height:640px;display:grid;place-items:center;text-align:center;padding:90px 0 80px;background:radial-gradient(circle at 50% 25%,#fff 0,#f4f3e8 37%,#dde8d5 100%)}.hero-mark{width:210px;height:210px;margin:auto;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(54,91,53,.22);background:rgba(255,255,255,.58);box-shadow:0 18px 60px rgba(54,91,53,.11)}.hero-mark:before{content:"❦";font-family:Georgia,serif;font-size:92px;color:var(--green);transform:rotate(-12deg)}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:800;color:#687a67;margin:28px 0 10px}.hero h1{font-family:Georgia,serif;font-size:clamp(68px,12vw,150px);font-weight:400;line-height:.88;letter-spacing:.03em;margin:0;color:var(--dark)}.tagline{font-family:Georgia,serif;font-style:italic;font-size:clamp(24px,3vw,38px);margin:18px 0 34px;color:var(--green)}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;border-radius:999px;background:var(--dark);color:white;font-weight:700;font-size:14px}.button.alt{background:transparent;color:var(--dark);border:1px solid var(--dark)}section{padding:88px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:34px}.section-head h2{font-family:Georgia,serif;font-size:clamp(38px,6vw,68px);font-weight:400;line-height:1;margin:4px 0 0;color:var(--dark)}.section-head p{max-width:520px;color:#687168}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{min-height:330px;background:white;border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:.2s ease}.card:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(41,64,42,.1)}.media{height:220px;display:grid;place-items:center;background:linear-gradient(145deg,#edf3e8,#dce8d5);font-size:64px}.card:nth-child(2) .media{background:linear-gradient(145deg,#f4eddb,#e6dcc2)}.card:nth-child(3) .media{background:linear-gradient(145deg,#e8eee2,#cad9c2)}.card:nth-child(4) .media{background:linear-gradient(145deg,#edf0e5,#d6dfca)}.card-body{padding:22px}.card h3{font-family:Georgia,serif;font-size:25px;font-weight:400;margin:0 0 5px}.card p{font-size:14px;color:#69716a;margin:0}.about{background:var(--dark);color:#f8f5ee}.about .eyebrow{color:#aabca8}.about h2{color:#fff}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}.about-copy{font-size:18px;max-width:660px}.about-copy p:first-of-type{font-family:Georgia,serif;font-size:30px;line-height:1.35}.garden{aspect-ratio:4/3;border-radius:30px;background:radial-gradient(circle at 25% 25%,rgba(255,255,255,.18),transparent 26%),linear-gradient(140deg,#78956b,#314e31);display:grid;place-items:center;font-size:100px;border:1px solid rgba(255,255,255,.15)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-card{background:white;border:1px solid var(--line);border-radius:22px;padding:30px}.contact-card h3{font-family:Georgia,serif;font-size:28px;font-weight:400;margin-top:0}.contact-line{display:flex;gap:12px;margin:13px 0}.footer{background:#182d1e;color:#d8e2d6;padding:38px 0}.footer .wrap{display:flex;justify-content:space-between;gap:30px}.footer strong{font-family:Georgia,serif;font-size:24px;color:#fff}@media(max-width:850px){.nav{gap:12px;font-size:12px}.grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{grid-template-columns:1fr}.hero{min-height:560px}.section-head{display:block}}@media(max-width:560px){.header .wrap{height:auto;padding:16px 0;align-items:flex-start}.nav{max-width:220px;justify-content:flex-end;flex-wrap:wrap}.brand span{display:none}.grid{grid-template-columns:1fr}.card{min-height:0}.media{height:180px}section{padding:64px 0}.footer .wrap{display:block}}
-</style>
-</head>
-<body>
-<header class="header"><div class="wrap"><a class="brand" href="#avaleht"><b>IGIAED</b><span>Igal ajal!</span></a><nav class="nav"><a href="#avaleht">Avaleht</a><a href="#igiaed">Igiaed</a><a href="#epood">e-pood</a><a href="#kontakt">Kontakt</a><a class="cart" href="#epood">Ostukorv · 0</a></nav></div></header>
+<!doctype html><html lang="et"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>IGIAED</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="brand-name">IGIAED</span><span class="brand-note">Igal ajal!</span></a>
+    <button class="mobile-toggle">Menüü</button>
+    <nav class="nav">
+      <a class="active" href="index.html">Avaleht</a>
+      <a class="" href="igiaed.html">Igiaed</a>
+      <div class="dropdown">
+        <a class="nav-link " href="tooted.html">e-pood</a>
+        <div class="dropdown-menu">
+          <a href="urdikapp.html">Ürdikapp</a>
+          <a href="koogipoolel.html">Köögipoolel</a>
+          <a href="korilase-korv.html">Korilase korv</a>
+          <a href="taimed.html">Taimed</a>
+        </div>
+      </div>
+      <a class="" href="ostukorv.html">Ostukorv <span id="cart-count"></span></a>
+      <a class="" href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
 <main>
-<section id="avaleht" class="hero"><div class="wrap"><div class="hero-mark" aria-hidden="true"></div><div class="eyebrow">Talu e-pood</div><h1>IGIAED</h1><div class="tagline">Igal ajal!</div><div class="actions"><a class="button" href="#igiaed">Meist</a><a class="button alt" href="#epood">Vaata tooteid</a></div></div></section>
-<section id="epood"><div class="wrap"><div class="section-head"><div><div class="eyebrow">E-pood</div><h2>Tootekategooriad</h2></div><p>Ürdid, hoidised, küpsetised, korilase annid ja taimed – hooajaliselt ning väikestes kogustes.</p></div><div class="grid"><a class="card" href="#kontakt"><div class="media">🌿</div><div class="card-body"><h3>Ürdikapp</h3><p>Teed, maitse- ja ravimtaimed.</p></div></a><a class="card" href="#kontakt"><div class="media">🍯</div><div class="card-body"><h3>Köögipoolel</h3><p>Moosid, siirupid, hoidised ja küpsetised.</p></div></a><a class="card" href="#kontakt"><div class="media">🧺</div><div class="card-body"><h3>Korilase korv</h3><p>Hooajalised korilussaadused ja valitud komplektid.</p></div></a><a class="card" href="#kontakt"><div class="media">🌱</div><div class="card-body"><h3>Taimed</h3><p>Istikud, seemned ja hooajalised taimed.</p></div></a></div></div></section>
-<section id="igiaed" class="about"><div class="wrap about-grid"><div><div class="eyebrow">Igiaed</div><h2 style="font-family:Georgia,serif;font-size:clamp(42px,6vw,70px);font-weight:400;line-height:1;margin:8px 0 28px">Kasvatatud, korjatud ja tehtud päriselt.</h2><div class="about-copy"><p>IGIAED on talu e-pood, kus aed, köök ja korilase maailm kohtuvad.</p><p>Valik sünnib hooaja järgi: sellest, mis parasjagu kasvab, valmib või mida saab talveks purki ja kuivatisse talletada.</p></div></div><div class="garden" aria-label="Aia illustratsioon">🌿</div></div></section>
-<section id="kontakt"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Kontakt</div><h2>Võta ühendust</h2></div><p>Kui soovid toodet, hooajalist valikut või täpsemat infot, kirjuta või helista.</p></div><div class="contact-grid"><div class="contact-card"><h3>IGIAED</h3><div class="contact-line"><span>✉</span><a href="mailto:igiaed@igiaed.ee">igiaed@igiaed.ee</a></div><div class="contact-line"><span>☎</span><a href="tel:+3723356673">+372 335 6673</a></div></div><div class="contact-card"><h3>Talu e-pood</h3><p>Ürdikapp, köögipoolel, korilase korv ja taimed. Toodete saadavus sõltub hooajast ja valmimisest.</p><a class="button" href="mailto:igiaed@igiaed.ee">Kirjuta meile</a></div></div></div></section>
+  <section class="hero hero-centered">
+  <div class="logo-carousel" aria-label="IGIAED galerii">
+      <img class="logo-slide active" src="images/logo-1.png" alt="IGIAED foto 1">
+      <img class="logo-slide" src="images/logo-2.png" alt="IGIAED foto 2">
+      <img class="logo-slide" src="images/logo-3.png" alt="IGIAED foto 3">
+      <img class="logo-slide" src="images/logo-4.png" alt="IGIAED foto 4">
+      <img class="logo-slide" src="images/home-5-angervaks.png" alt="IGIAED foto 5">
+      <img class="logo-slide" src="images/home-6-maasikas.png" alt="IGIAED foto 6">
+      <img class="logo-slide" src="images/home-7-lauk.png" alt="IGIAED foto 7">
+      <img class="logo-slide" src="images/home-8-kollane.png" alt="IGIAED foto 8">
+      <img class="logo-slide" src="images/home-9-saialill.png" alt="IGIAED foto 9">
+  </div>
+  <div class="hero-copy-centered">
+    <div class="kicker">Talu e-pood</div>
+    <h1>IGIAED</h1>
+    <div class="placeholder-line">Igal ajal!</div>
+    <div class="hero-actions">
+      <a class="button" href="igiaed.html">Meist</a>
+      <a class="button secondary" href="tooted.html">Vaata tooteid</a>
+    </div>
+  </div>
+</section>
+  <section class="section"><div class="section-head"><div><div class="kicker">E-pood</div><h2>Tootekategooriad</h2></div></div>
+    <div class="category-grid">
+      <a class="category-card" href="urdikapp.html"><div class="square-media"><img src="images/urdikapp.png" alt="Ürdikapp"></div><div class="category-content"><h3>Ürdikapp</h3></div></a>
+      <a class="category-card" href="koogipoolel.html"><div class="square-media"><img src="images/koogipoolel.png" alt="Köögipoolel"></div><div class="category-content"><h3>Köögipoolel</h3></div></a>
+      <a class="category-card" href="korilase-korv.html"><div class="square-media"><img src="images/korilase-korv.png" alt="Korilase korv"></div><div class="category-content"><h3>Korilase korv</h3></div></a>
+      <a class="category-card" href="taimed.html"><div class="square-media"><img src="images/taimed.png" alt="Taimed"></div><div class="category-content"><h3>Taimed</h3></div></a>
+    </div>
+  </section>
 </main>
-<footer class="footer"><div class="wrap"><div><strong>IGIAED</strong><div>Igal ajal!</div></div><div>igiaed@igiaed.ee · +372 335 6673</div></div></footer>
-<!-- Pages redeploy trigger 2026-10-09 -->
-</body>
-</html>
+<footer class="footer"><div class="footer-inner"><div><strong>IGIAED</strong><p>Talu e-pood, ürdikapp ja hooajalised annid.</p></div><div><p>e-post: igiaed@igiaed.ee<br>tel: +3723356673</p></div></div></footer><script src="script.js"></script>
+</body></html>

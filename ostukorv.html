@@ -1,0 +1,45 @@
+<!doctype html><html lang="et"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ostukorv | IGIAED</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="brand-name">IGIAED</span><span class="brand-note">Igal ajal!</span></a>
+    <button class="mobile-toggle">Menüü</button>
+    <nav class="nav">
+      <a class="" href="index.html">Avaleht</a>
+      <a class="" href="igiaed.html">Igiaed</a>
+      <div class="dropdown">
+        <a class="nav-link" href="tooted.html">e-pood</a>
+        <div class="dropdown-menu">
+          <a href="urdikapp.html">Ürdikapp</a>
+          <a href="koogipoolel.html">Köögipoolel</a>
+          <a href="korilase-korv.html">Korilase korv</a>
+          <a href="taimed.html">Taimed</a>
+        </div>
+      </div>
+      <a class="active" href="ostukorv.html">Ostukorv <span id="cart-count"></span></a>
+      <a class="" href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-title">
+    <div class="kicker">Tellimine</div>
+    <h1>Ostukorv</h1>
+    <div class="placeholder-line">Siia kogunevad valitud tooted. Tellimise vormi ja hinnad lisame hiljem.</div>
+  </section>
+
+  <section class="section">
+    <div id="cart-items" class="cart-items"></div>
+
+    <div class="cart-actions">
+      <a class="button secondary" href="tooted.html">Jätka ostlemist</a>
+      <button class="button secondary" id="copy-cart">Kopeeri ostukorv</button>
+      <button class="button" id="clear-cart">Tühjenda ostukorv</button>
+    </div>
+
+    <p class="cart-note">Märkus: see on esmane ostukorvi lahendus. Makse- ja tellimisvormi saab lisada järgmises etapis.</p>
+  </section>
+</main>
+
+<footer class="footer"><div class="footer-inner"><div><strong>IGIAED</strong><p>Talu e-pood, ürdikapp ja hooajalised annid.</p></div><div><p>e-post: igiaed@igiaed.ee<br>tel: +3723356673</p></div></div></footer><script src="script.js"></script>
+</body></html>

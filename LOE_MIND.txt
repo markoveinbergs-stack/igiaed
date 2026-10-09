@@ -1,0 +1,187 @@
+IGIAED v9 keskne fade logo
+
+- Avalehe avaplokk on ühe keskse logo-plokina.
+- Logo/pilt vahetub iga 3 sekundi järel kiire fade üleminekuga.
+- Logo/piltide valge taust on töödeldud läbipaistvaks.
+- Logo failid asuvad kaustas images: logo-1.png, logo-2.png, logo-3.png, logo-4.png.
+- Ava vaatamiseks index.html.
+
+
+v10 muudatused:
+- avalehe ja e-poe kategooriatelt eemaldatud numbrid;
+- avalehe ja e-poe kategooriatelt eemaldatud kirjeldused;
+- eemaldatud avalehe tekst: "Lihtne ja loogiline struktuur. E-poe põhikategooriad on nüüd ülemise menüü rippvalikus.";
+- kategooriatesse lisatud pildid läbipaistva taustaga, raamita.
+
+
+v11 muudatused:
+- asendatud tootekategooriate pildid kasutaja uute failidega
+- Ürdikapp = teesegupurk
+- Köögipoolel = moosipurk ja vaarikad
+- Korilase korv = kinkekorv
+- Istikud = basiiliku istik potis
+- Seemned = oad / seemned
+
+
+v12 muudatused:
+- tootekategooriate piltidelt eemaldatud ruuduline / must taust
+- kategooriapildid on nüüd päriselt transparent taustaga PNG-failid
+
+
+v13 muudatused:
+- Istikud ja Seemned viidud ühe põhikategooria alla: Taimed.
+- Seemned on nüüd Taimed alamkategooria.
+- Pealehel ja E-poe lehel on põhikategooriad: Ürdikapp, Köögipoolel, Korilase korv, Taimed.
+- E-poe rippmenüüs on nüüd Taimed, mitte eraldi Istikud ja Seemned.
+- Lisatud uus leht: taimed.html.
+
+
+v14 muudatused:
+- Ürdikapp lehe pealkirjad muudetud: "Ürdid ja teed".
+- "Seguteed" eraldi kategooriana eemaldatud; lehel on nüüd üks koondkategooria.
+- Lisatud pildid toodetele: Piparmünt, Põdrakanep, Mets-kassinaeris.
+- Samad pildid lisatud ka nende toodete detaillehtedele.
+
+
+v15 muudatused:
+- Ürdikapi toodete piltidel on nüüd transparent taust.
+- Lisatud Pune toote pilt.
+- Ürdikapi lehelt eemaldatud kõik ülejäänud pildita tooted.
+- Alles jäid: Piparmünt, Põdrakanep, Mets-kassinaeris, Pune.
+- Toote detailvaadetes on samuti transparent taustaga pildid.
+
+
+v16 muudatused:
+- Ürdikapp lehelt eemaldatud külgmenüü / kõrvalplokk.
+- Leht on nüüd üheveerulise puhta paigutusega.
+
+
+v17 muudatused:
+- Lisatud ostukorv: ostukorv.html.
+- Menüüsse lisatud Ostukorv koos toodete arvuga.
+- Toote detaillehtedele lisatud nupp "Lisa ostukorvi".
+- Ostukorv salvestub brauseri localStorage abil.
+- Ostukorvis saab kogust muuta, toodet eemaldada, ostukorvi tühjendada ja ostukorvi teksti kopeerida.
+
+
+v18 muudatus:
+- Lisatud tühik/vahe menüüs sõna "Ostukorv" ja koguse numbri vahele.
+
+
+v19 muudatused:
+- Pealehe vahelduvasse galeriisse lisatud 5 uut fotot.
+- Uute fotode taustad muudetud transparentseks.
+- Kodulehte avades alustab galerii nüüd iga kord juhuslikult erinevast pildist.
+
+
+v20 muudatused:
+- Lisatud hinnad aktiivsetele Ürdikapi toodetele.
+- Piparmünt 20 g = 3,50 €
+- Põdrakanep 20 g = 4,50 €
+- Mets-kassinaeris 8 g = 4,00 €
+- Pune 20 g = 3,50 €
+- Ostukorv arvutab nüüd kogusepõhise summa.
+
+
+v21 muudatused:
+- Pagaritooted ja Kondiitritooted ühendatud kategooriaks "Pagari-ja kondiitritooted".
+- Lisatud uus leht: pagari-ja-kondiitritooted.html.
+- Lisatud teade: "Ettetellimisel Pärnumaa piires."
+- Lisatud tellimisvorm.
+- Lisatud serveripoolne PHP saatjafail send-order.php, mis saadab kirja markoveinbergs@gmail.com aadressile.
+- Lisatud kg-põhine turuhinnakiri: kringlid al 18 €/kg, koogid/tordid al 28 €/kg, luksuslikud/erikujulised tordid al 35 €/kg.
+NB! Vorm töötab ainult PHP-toega majutuses; local file:// avamisel kirja ei saadeta.
+
+
+v22 muudatused:
+- Saatmisloogika eemaldatud; send-order.php eemaldatud.
+- Köögipoolel leht korrastatud ja jäetud ainult aktiivsed valikud.
+- Pagari-ja kondiitritooted leht viimistletud prototüübi tasemel.
+- Tellimisvorm on nüüd kujunduslik prototüüp, mitte toimiv saatmisvorm.
+
+
+v23 muudatused:
+- Hoidised muudetud tootekategooriaks.
+- Köögipoolel lehel viib Hoidised nüüd lehele hoidised.html.
+- Lisatud hoidiste tootevaliku leht: hoidised.html.
+- Vana toode-hoidised.html suunab kasutaja hoidiste tootevalikusse.
+
+
+v24 muudatused:
+- Lisatud hoidiste alamkategooriatele vastavad pildid:
+  - moosid
+  - siirupid
+  - marineeritud saadused
+  - muud hoidised
+- Kõik hoidiste alamkategooriad on nüüd klikitavad ja viivad tootenimekirja lehele.
+- Lisatud alamlehed:
+  - moosid.html
+  - siirupid.html
+  - marineeritud-saadused.html
+  - muud-hoidised.html
+- Kõigile alamkategooriatele lisatud näidistooted:
+  - Toode 1
+  - Toode 2
+  - Toode 3
+- Uued pildid on 1x1 ja transparent background.
+
+
+v25 muudatused:
+- Ürdikapi lehele lisatud 4 uut toodet: Angervaks, Basiilik, Rukkilill, Saialill.
+- Ürdid ja teed lehel on nüüd kokku 8 toodet.
+- Kõigile toodetele lisatud hinnad kaardivaates ja tootelehtedel.
+
+
+v26 muudatused:
+- Rukkilille tootepilt vähendatud ja paigutatud suurema varuga, et pilt ei jääks kaardivaates lõigatud muljega.
+
+
+v27 muudatused:
+- Ürdikapi lehele taastatud kõik 8 toodet: piparmünt, põdrakanep, mets-kassinaeris, pune, angervaks, basiilik, rukkilill ja saialill.
+- Kõigile 8 tootekaardile lisatud hinnad ja kogused.
+- Angervaksa tootelehele lisatud hind, kogus ja ostukorvi nupp.
+
+
+v28 muudatused:
+- Korilase korvi kategoorias jäetud ainult 4 toodet.
+- Lisatud nelja korvi pildid, hinnad ja ettetellimise märge.
+- Uuendatud tootelehed Korv 1–4: pilt, kirjeldus, sisu, hind, saadavus ja ostukorvi nupp.
+
+
+v29 muudatused:
+- Korilase korvide pildijärjekord parandatud.
+- Korv 1–4 pildid paigutatud õiges järjekorras.
+- Istikute kategooriatele lisatud õiged pildid: Maitsetaimed, Püsililled, Söödavat, Toataimed.
+- Samad õiged pildid lisatud ka შესაბამისastele istikute kategoorialehtedele.
+- Kasutatud ainult PNG-failid läbipaistva taustaga.
+
+
+v30 muudatused:
+- Korvide ja istikute kategooriapiltidelt eemaldatud ruuduline taust ning salvestatud päriselt läbipaistva taustaga PNG-dena.
+- Parandatud läbipaistvus piltidel: korv-1 kuni korv-4, istikud-maitsetaimed, istikud-püsililled, istikud-söödavat, istikud-toataimed.
+- Iga istikute kategoorialehe lõppu lisatud 3 eraldi toodete placeholder-kaarti (Toode 1, Toode 2, Toode 3).
+
+
+v31 muudatused:
+- Avalehe CTA-nupud lihtsustatud: alles jäi ainult nupp "Meist" (viib lehele igiaed.html).
+- igiaed.html kujundatud ümber lihtsaks "Meist" + pildivoo leheks.
+- Lehe ülaossa lisatud suur landscape-formaadis pildiala ja tutvustav tekst.
+- Lisatud esimene pildivoog Flickr-stiilis paigutusega.
+- Uued voo pildid lisa HTML-is alati ploki .flickr-feed algusesse, et uusim oleks eespool.
+- Voo algpildid: munad, lupiinid, kurgid, iirised.
+
+
+v32 muudatused:
+- Pildivoog tehtud veel rohkem Flickr-stiilis: ainult pildid, piltide all enam tekste ei ole.
+- Tunnuslause kogu saidil muudetud: "Igal ajal!"
+- Menüüs link "Igiaed" nüüd suure algustähega.
+- Kui ostukorv on tühi, siis arvu 0 ei kuvata.
+
+
+v33 muudatused:
+- Pealehe tunnuslause tekst muudetud: "Igal ajal!"
+- Pealehele lisatud nupu "Meist" kõrvale nupp "Vaata tooteid".
+- Kontaktandmed lisatud:
+  - e-post: igiaed@igiaed.ee
+  - tel: +3723356673
+- Footerites asendatud kontaktandmete placeholder päris kontaktidega.
