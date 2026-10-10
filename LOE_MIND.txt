@@ -88,7 +88,7 @@ v21 muudatused:
 - Lisatud uus leht: pagari-ja-kondiitritooted.html.
 - Lisatud teade: "Ettetellimisel Pärnumaa piires."
 - Lisatud tellimisvorm.
-- Lisatud serveripoolne PHP saatjafail send-order.php, mis saadab kirja markoveinbergs@gmail.com aadressile.
+- Lisatud serveripoolne PHP saatjafail send-order.php, mis saadab kirja  aadressile.
 - Lisatud kg-põhine turuhinnakiri: kringlid al 18 €/kg, koogid/tordid al 28 €/kg, luksuslikud/erikujulised tordid al 35 €/kg.
 NB! Vorm töötab ainult PHP-toega majutuses; local file:// avamisel kirja ei saadeta.
 
@@ -182,6 +182,6 @@ v33 muudatused:
 - Pealehe tunnuslause tekst muudetud: "Igal ajal!"
 - Pealehele lisatud nupu "Meist" kõrvale nupp "Vaata tooteid".
 - Kontaktandmed lisatud:
-  - e-post: igiaed@igiaed.ee
+  - e-post: 
   - tel: +3723356673
 - Footerites asendatud kontaktandmete placeholder päris kontaktidega.
